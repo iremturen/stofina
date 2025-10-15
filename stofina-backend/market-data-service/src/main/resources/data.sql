@@ -1,0 +1,35 @@
+INSERT INTO stocks (
+    symbol, stock_name, isin_code, company_name, equity_market, exchange, currency,
+    default_price, current_price, daily_high, daily_low, previous_close, status,
+    last_updated, created_at, updated_at
+)
+VALUES
+('AKBNK', 'Akbank', 'TRAKBNK00010', 'Akbank T.A.Ş.', 'STAR MARKET', 'BIST', 'TRY',
+ 67.15, 67.15, 67.15, 67.15, 67.15, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('CCOLA', 'Coca-Cola İçecek', 'TRACCOLA91E1', 'Coca-Cola İçecek A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 49.92, 49.92, 49.92, 49.92, 49.92, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('DOAS', 'Doğuş Otomotiv', 'TRADOAS91E12', 'Doğuş Otomotiv Servis ve Ticaret A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 183.10, 183.10, 183.10, 183.10, 183.10, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('MGROS', 'Migros', 'TRAMGROS91E1', 'Migros Ticaret A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 531.00, 531.00, 531.00, 531.00, 531.00, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('FROTO', 'Ford Otosan', 'TRAFROTO91E1', 'Ford Otomotiv Sanayi A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 92.95, 92.95, 92.95, 92.95, 92.95, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('TCELL', 'Turkcell', 'TRATCELL91E1', 'Turkcell İletişim Hizmetleri A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 92.55, 92.55, 92.55, 92.55, 92.55, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('THYAO', 'Türk Hava Yolları', 'TRATHYAO91E1', 'Türk Hava Yolları A.O.', 'MAIN MARKET', 'BIST', 'TRY',
+ 290.25, 290.25, 290.25, 290.25, 290.25, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('YEOTK', 'Yeşil Otomotiv', 'TRAYEOTK91E1', 'Yeşil Otomotiv Endüstrisi ve Ticaret A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 42.08, 42.08, 42.08, 42.08, 42.08, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('BRSAN', 'Bera Holding', 'TRABRSAN91E1', 'Bera Sanayi ve Ticaret A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 354.00, 354.00, 354.00, 354.00, 354.00, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+('TUPRS', 'Tüpraş', 'TRATUPRS91E1', 'Tüpraş-Türkiye Petrol Rafinerileri A.Ş.', 'MAIN MARKET', 'BIST', 'TRY',
+ 164.50, 164.50, 164.50, 164.50, 164.50, 'ACTIVE', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
